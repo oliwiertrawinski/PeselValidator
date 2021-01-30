@@ -7,10 +7,6 @@ val purple500 = Color(0xFF6200EE)
 val purple700 = Color(0xFF3700B3)
 val teal200 = Color(0xFF03DAC5)
 
-val indigo200 = Color(0xFFC7D2FE)
-val indigo300 = Color(0xFFA5B4FC)
-val indigo400 = Color(0xFF818CF8)
-val indigo500 = Color(0xFF6366F1)
 
 val gray50 = Color(0xFFF9FAFB)
 val gray100 = Color(0xFFF3F4F6)

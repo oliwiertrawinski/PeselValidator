@@ -24,8 +24,8 @@ class Validator {
                 val year = pesel.substring(0,2).toInt()
                 val month = pesel.substring(2,4)
                 val day = pesel.substring(4,6)
-                val fullYear = year + if(year < 20) 2000 else 1900
-                val stringDate = "$day-$month-$fullYear"
+                val longYear = year + if(year < 20) 2000 else 1900
+                val stringDate = "$day-$month-$longYear"
                 return dateInfo(stringDate)
             }
         }
